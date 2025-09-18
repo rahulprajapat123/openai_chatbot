@@ -1,9 +1,9 @@
 
-# OpenAI & LangChain-Powered Chatbot Support System with Socket.io
+#  LangChain-Powered Chatbot Support System with ollama
 
 ## Overview
 
-This project is a real-time chatbot support system powered by **OpenAI** and **LangChain**, built using **Node.js**, **Express**, and **Socket.io**. The system allows users to interact with a chatbot in a web-based interface, where their questions are processed and answered in real-time. The application leverages an interactive chat UI that dynamically updates as messages are exchanged between the user and the AI-powered chatbot.
+This project is a real-time chatbot support system powered by **LangChain**, built using **Node.js**, **Express**, and **streamlit**. The system allows users to interact with a chatbot in a web-based interface, where their questions are processed and answered in real-time. The application leverages an interactive chat UI that dynamically updates as messages are exchanged between the user and the AI-powered chatbot.
 
 ## Technologies Used
 
@@ -11,7 +11,6 @@ This project is a real-time chatbot support system powered by **OpenAI** and **L
 - **LangChain**: Framework to chain together language models, prompts, and other utilities.
 - **Node.js**: Backend server that powers the chatbot application.
 - **Express**: Web framework for handling HTTP requests and serving static files.
-- **Socket.io**: Real-time communication library for sending and receiving messages between the client and server.
 - **JavaScript (ES6)**: Programming language used for both frontend and backend logic.
 - **HTML/CSS**: Markup and styling for the chat interface.
 
@@ -21,4 +20,5 @@ This project is a real-time chatbot support system powered by **OpenAI** and **L
 - Dynamic message handling and UI updates using Socket.io.
 - Customizable and extensible chatbot logic.
 - Simple and intuitive user interface.
+
 
